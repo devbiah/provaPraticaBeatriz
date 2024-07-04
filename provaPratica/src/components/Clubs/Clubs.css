@@ -1,0 +1,38 @@
+.list-club {
+  display: flex;
+  justify-content: center;
+}
+
+.club {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.club:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+  filter: saturate(200%);
+}
+
+.list-club ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.club img {
+  margin-right: 10px;
+}
+
+
+.erro {
+  color: red;
+  text-align: center;
+  margin: 20px 0;
+}
